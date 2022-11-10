@@ -90,7 +90,7 @@ export const GameOptions: React.FC<GameOptionsProps> = ({ closeModal }) => {
       symbolsArr = Array.from(randomSymbol)
       for (let i = 0; i < gameOptions.itemsCount; i++) {
          console.log(i)
-         let img = `./order_el-g${i + 1}.png`
+         let img = `order_el-g${i + 1}.png`
 
          order_items.push({
             img: img,
